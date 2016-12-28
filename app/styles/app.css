@@ -1,0 +1,67 @@
+/***
+* App
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body {
+	background-color: #039be5;
+}
+.nav {
+	color: white;
+}
+.main {
+	
+}
+/***
+* Index
+*/
+.g-map-canvas {
+  width: 600px;
+  height: 400px;
+}
+/***
+* Sign Up
+*/
+.signUpForm,
+.logInForm {
+	background-color: white;
+	width: 300px;
+	height: 350px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px #fff;
+	position: relative;
+}
+.signUpForm h2,
+.logInForm h2 {
+	text-align: center;
+}
+.signUpForm input,
+.signUpForm button,
+.logInForm input,
+.logInForm button {
+	display: block;
+	width: 300px;
+}
+.signUpForm .form-group,
+.logInForm .form-group {
+	margin: 20px 0;
+}
+.signUpForm .form-link,
+.logInForm .form-link {
+	position: absolute;
+	bottom: 3px;
+	right: 50%;
+	transform: translateX(50%);
+}
+.signUpForm input[type="email"],
+.signUpForm input[type="password"],
+.logInForm input[type="email"],
+.logInForm input[type="password"] {
+	height: 20px;
+}
